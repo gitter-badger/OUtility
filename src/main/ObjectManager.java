@@ -11,22 +11,9 @@ import helpers.Serializer;
  */
 public class ObjectManager {
 	
-	/**
-	 * Required constructor when creating an instance of this class. The constructor is private, use ObjectManager.Authorize to create an instance!
-	 */
-	private ObjectManager() {
-		
-	}
 	
-	public static ObjectManager Authorize(String passkey) {
-		
-		if (passkey.equals("ahdkajhdjadahsd723173128372183kdjasd@#^#&#*&#hjsdkshdady28")) {
-			ObjectManager manager = new ObjectManager();
-			return manager;
-		} else {
-			return null;
-		}
-	}
+	
+	
 	
 
 	/** 
