@@ -40,4 +40,8 @@ public class Group {
 		return members;
 	}
 	
+	public void testMethod() {
+		
+	}
+	
 }
