@@ -1,4 +1,4 @@
-![alt tag](http://i.imgur.com/y9Ae8lE.png)
+![alt tag](http://i.imgur.com/cxj1APV.png)
 
 Welcome to OUtility, your brand new everyday Java utility library!
 
