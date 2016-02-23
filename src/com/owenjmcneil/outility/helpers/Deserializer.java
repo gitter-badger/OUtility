@@ -1,7 +1,6 @@
 package com.owenjmcneil.outility.helpers;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.ObjectInputStream;
 
 public class Deserializer {

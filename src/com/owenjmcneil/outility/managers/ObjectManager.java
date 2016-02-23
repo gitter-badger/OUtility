@@ -1,9 +1,9 @@
 
 package com.owenjmcneil.outility.managers;
 
-import java.io.FileNotFoundException;
 
 import com.owenjmcneil.outility.helpers.Deserializer;
+import com.owenjmcneil.outility.helpers.OException;
 import com.owenjmcneil.outility.helpers.Serializer;
 
 public class ObjectManager {
@@ -29,7 +29,7 @@ public class ObjectManager {
 		Object object = deserializer.deserialzeObject(saveLocation);
 		
 		if (object == null) {
-			Exception e = new Exception("OUtility: [ObjectManager]: Exception Caught! Object couldn't be found or couldn't be loaded.");
+			OException e = new OException("ObjectManager", "Object couldn't be found or couldn't be loaded.");
 			e.printStackTrace();
 		}
 		
@@ -42,9 +42,7 @@ public class ObjectManager {
 	 * @return Returns true if a valid object exists, false if not.
 	 */
 	public static boolean checkObjectExists(String saveLocation) {
-		
 		Deserializer deserializer = new Deserializer();
-		
 		Object object = deserializer.deserialzeObject(saveLocation);
 		
 		if (object != null) {
