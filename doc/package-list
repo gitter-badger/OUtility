@@ -1,2 +1,6 @@
-helpers
-main
+com.owenjmcneil.outility.helpers
+com.owenjmcneil.outility.interfaces
+com.owenjmcneil.outility.main
+com.owenjmcneil.outility.managers
+com.owenjmcneil.outility.testing
+com.owenjmcneil.outility.utilities
