@@ -4,7 +4,7 @@ package com.owenjmcneil.outility.helpers;
 	import java.io.FileOutputStream;
 	import java.io.ObjectOutputStream;
 
-	public class Serializer {
+	public final class Serializer {
 
 		/**
 		 * Classic serialize method. Used in the ObjectManager class.

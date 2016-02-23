@@ -3,7 +3,7 @@ package com.owenjmcneil.outility.helpers;
 import java.io.FileInputStream;
 import java.io.ObjectInputStream;
 
-public class Deserializer {
+public final class Deserializer {
 	
 	 public Object deserialzeObject(String saveLocation) {
 		   

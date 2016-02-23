@@ -6,13 +6,17 @@ import com.owenjmcneil.outility.helpers.Deserializer;
 import com.owenjmcneil.outility.helpers.OException;
 import com.owenjmcneil.outility.helpers.Serializer;
 
-public class ObjectManager {
+public final class ObjectManager {
+	
+	private ObjectManager() {
+		
+	}
 
 	/** 
-	 * This method is used to save an object onto a specified file for later use! All object attributes are copied.
+	 * This method is used to save an object onto a specified file for later use
 	 * Important: The object being saved must IMPLEMENT the Serializable class!
 	 * @param object The object to be saved.
-	 * @param saveLocation The location for the object to be saved, INCLUDING the file name and extension (.sv)
+	 * @param saveLocation The location for the object to be saved
 	 */
 	public static void saveObject(Object object, String saveLocation) {
 		Serializer serializer = new Serializer();
@@ -20,8 +24,8 @@ public class ObjectManager {
 	}
 	
 	/**
-	 * This method is used to open an object which was saved using this utility. All object attributes are loaded.
-	 * @param saveLocation The location where the object is saved, INCLUDING the file name and extension.
+	 * This method is used to open an object which was saved using this utility
+	 * @param saveLocation The location where the object is saved
 	 * @return Returns the read object.
 	 */
 	public static Object loadObject(String saveLocation) {
