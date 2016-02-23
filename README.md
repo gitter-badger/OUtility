@@ -1,4 +1,5 @@
-# OUtility
+![alt tag](http://i.imgur.com/y9Ae8lE.png)
+
 Welcome to OUtility, your brand new everyday Java utility library!
 
 * Since the project is brand new, this ReadMe is a very, very rough draft. Take all the information with a few grains of NaCl.
