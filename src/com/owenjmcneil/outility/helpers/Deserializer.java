@@ -1,11 +1,12 @@
 package com.owenjmcneil.outility.helpers;
 
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.ObjectInputStream;
 
 public class Deserializer {
 	
-	 public Object deserialzeObject(String saveLocation){
+	 public Object deserialzeObject(String saveLocation) {
 		   
 		   Object object;
 		 
@@ -19,7 +20,6 @@ public class Deserializer {
 			   return object;
 			   
 		   }catch(Exception ex){
-			   ex.printStackTrace();
 			   return null;
 		   } 
 	   } 
