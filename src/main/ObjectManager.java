@@ -4,20 +4,11 @@ package main;
 import helpers.Deserializer;
 import helpers.Serializer;
 
-/**
- * This class has several useful methods that can be used when handling objects!
- * @author Owen McNeil
- * @version 1.0, Last Updated: 02/07/16
- */
 public class ObjectManager {
-	
-	
-	
-	
-	
 
 	/** 
 	 * This method is used to save an object onto a specified file for later use! All object attributes are copied.
+	 * Important: The object being saved must IMPLEMENT the Serializable class!
 	 * @param object The object to be saved.
 	 * @param saveLocation The location for the object to be saved, INCLUDING the file name and extension (.sv)
 	 */
@@ -28,8 +19,8 @@ public class ObjectManager {
 	
 	/**
 	 * This method is used to open an object which was saved using this utility. All object attributes are loaded.
-	 * @param saveLocation The location where the object is saved, INCLUDING the file name and extension (.sv)
-	 * @return Returns the read object, or an error. (Hopefully the earlier)
+	 * @param saveLocation The location where the object is saved, INCLUDING the file name and extension.
+	 * @return Returns the read object.
 	 */
 	public final Object loadObject(String saveLocation) {
 		Deserializer deserializer = new Deserializer();

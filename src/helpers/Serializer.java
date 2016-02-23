@@ -15,7 +15,6 @@ package helpers;
 				ObjectOutputStream oos = new ObjectOutputStream(fout);   
 				oos.writeObject(object);
 				oos.close();
-				System.out.println("Object write complete.");
 				   
 			   }catch(Exception ex){
 				   ex.printStackTrace();
