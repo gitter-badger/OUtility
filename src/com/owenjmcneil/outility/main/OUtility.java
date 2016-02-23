@@ -1,8 +1,6 @@
-package main;
+package com.owenjmcneil.outility.main;
 
 public class OUtility {
-	
-	
 	
 	/**
 	 * This method creates a new Object Manager, which can be used to manipulate objects in several different, useful ways!

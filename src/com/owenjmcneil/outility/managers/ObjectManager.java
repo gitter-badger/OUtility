@@ -1,10 +1,10 @@
 
-package main;
+package com.owenjmcneil.outility.managers;
 
-import helpers.Deserializer;
-import helpers.Serializer;
+import com.owenjmcneil.outility.helpers.Deserializer;
+import com.owenjmcneil.outility.helpers.Serializer;
 
-public class ObjectManager {
+public abstract class ObjectManager {
 
 	/** 
 	 * This method is used to save an object onto a specified file for later use! All object attributes are copied.
