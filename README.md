@@ -10,7 +10,7 @@ OUtility comes packed with a rapidly increasing amount of useful classes and uti
 
 ## Using the library
 
-OUtility is incredibly compact and easy to integrate into your new or existing projects! Simply download the .jar file from [here](http://www.google.com) and add it as a project reference. Need some step by step instructions? Check out the [wiki!](https://github.com/McFeelio/OUtility/wiki)
+OUtility is incredibly compact and easy to integrate into your new or existing projects! Simply download the .jar file from [here](http://www.filedropper.com/outility) and add it as a project reference. Need some step by step instructions? Check out the [wiki!](https://github.com/McFeelio/OUtility/wiki)
 
 ## We need you!
 
