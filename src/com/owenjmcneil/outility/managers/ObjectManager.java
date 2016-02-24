@@ -8,9 +8,7 @@ import com.owenjmcneil.outility.helpers.Serializer;
 
 public final class ObjectManager {
 	
-	private ObjectManager() {
-		
-	}
+	private ObjectManager() {}
 
 	/** 
 	 * This method is used to save an object onto a specified file for later use
