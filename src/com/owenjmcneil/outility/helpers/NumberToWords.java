@@ -1,19 +1,17 @@
-package com.owenjmcneil.outility.managers;
+package com.owenjmcneil.outility.helpers;
 
 import java.text.DecimalFormat;
 
-public final class IntegerManager {
-
-	private IntegerManager() {}
-
+public class NumberToWords {
+	
 	private static final String[] tensNames = { "", " ten", " twenty", " thirty", " forty", " fifty", " sixty",
 			" seventy", " eighty", " ninety" };
 
 	private static final String[] numNames = { "", " one", " two", " three", " four", " five", " six", " seven",
 			" eight", " nine", " ten", " eleven", " twelve", " thirteen", " fourteen", " fifteen", " sixteen",
 			" seventeen", " eighteen", " nineteen" };
-
-	private static String convertLessThanOneThousand(int number) {
+	
+	private String convertLessThanOneThousand(int number) {
 		String soFar;
 
 		if (number % 100 < 20) {
@@ -30,14 +28,8 @@ public final class IntegerManager {
 			return soFar;
 		return numNames[number] + " hundred" + soFar;
 	}
-
-	/**
-	 * Traditional method to convert any number (from 0 to 999 999 999 999) to it's word value (i.e. One hundred ten)
-	 * @param number Number to be converted
-	 * @return The number's word value
-	 */
-	public static String convertToWords(long number) {
 	
+	public String convert(long number) {
 		if (number == 0) {
 			return "zero";
 		}
