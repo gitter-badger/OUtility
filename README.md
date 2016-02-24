@@ -1,12 +1,16 @@
-![alt tag](http://i.imgur.com/y9Ae8lE.png)
+![Header image](http://i.imgur.com/cxj1APV.png)
 
-Welcome to OUtility, your brand new everyday Java utility library!
-
-* Since the project is brand new, this ReadMe is a very, very rough draft. Take all the information with a few grains of NaCl.
+Introducing OUtility, your brand new everyday Java utility library!
 
 ## What is it?
 
 The goal behind OUtility is to provide the everyday Java programmer with a rich collection of essential functions and classes, allowing them to spend less time figuring out the nitty gritty details and more time developing the actual high-level functionality of their software.
+
+OUtility comes packed with a rapidly increasing amount of useful classes and utility methods, which are specifically designed to make YOUR code shorter, cleaner and more efficient!
+
+## Using the library
+
+OUtility is incredibly compact and easy to integrate into your new or existing projects! Simply download the .jar file from [here](http://www.filedropper.com/outility) and add it as a project reference. Need some step by step instructions? Check out the [wiki!](https://github.com/McFeelio/OUtility/wiki)
 
 ## We need you!
 
