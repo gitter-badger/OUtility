@@ -4,6 +4,8 @@ Introducing OUtility, your brand new everyday Java utility library!
 
 ## What is it?
 
+[![Join the chat at https://gitter.im/McFeelio/OUtility](https://badges.gitter.im/McFeelio/OUtility.svg)](https://gitter.im/McFeelio/OUtility?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 The goal behind OUtility is to provide the everyday Java programmer with a rich collection of essential functions and classes, allowing them to spend less time figuring out the nitty gritty details and more time developing the actual high-level functionality of their software.
 
 OUtility comes packed with a rapidly increasing amount of useful classes and utility methods, which are specifically designed to make YOUR code shorter, cleaner and more efficient!
